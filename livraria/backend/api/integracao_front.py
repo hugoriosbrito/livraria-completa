@@ -5,7 +5,7 @@ from livraria.backend.api.requisicao import Endpoints, Requisicao
 
 validacao = Validacao()
 
-end = Endpoints(url_base="http://168.75.102.152:8082")
+end = Endpoints(url_base="http://api.livraria.spacenova.me")
 req = Requisicao(end)
 
 def cadastrar_usuario(usuario: dict[str, str]):
